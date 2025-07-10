@@ -209,7 +209,7 @@ MAGYAR_ZENEKAROK_QUESTIONS = [
     },
     {
         "question": "Ki az előadó?",
-        "spotify_embed": "https://open.spotify.com/embed/artist/5hBCfYFEDK8otrksMYuzoL",
+        "spotify_embed": "https://open.spotify.com/embed/artist/4hQQE3GUQeBAOFwTJ5aede",
         "options": [
             "Soulwave",
             "Carbonfools",
@@ -222,7 +222,7 @@ MAGYAR_ZENEKAROK_QUESTIONS = [
     },
     {
         "question": "Ki az előadó?",
-        "spotify_embed": "https://open.spotify.com/embed/artist/5hBCfYFEDK8otrksMYuzoL",
+        "spotify_embed": "https://open.spotify.com/embed/artist/3zhmiYvMt6ScobjEnbVB4I",
         "options": [
             "Neon",
             "Carbonfools",
@@ -235,7 +235,7 @@ MAGYAR_ZENEKAROK_QUESTIONS = [
     },
     {
         "question": "Ki az előadó?",
-        "spotify_embed": "https://open.spotify.com/embed/artist/5hBCfYFEDK8otrksMYuzoL",
+        "spotify_embed": "https://open.spotify.com/embed/artist/54N9jnigs5yhiMGY7rVu1K",
         "options": [
             "Quimby",
             "Tankcsapda",
@@ -248,7 +248,7 @@ MAGYAR_ZENEKAROK_QUESTIONS = [
     },
     {
         "question": "Ki az előadó?",
-        "spotify_embed": "https://open.spotify.com/embed/artist/5hBCfYFEDK8otrksMYuzoL",
+        "spotify_embed": "https://open.spotify.com/embed/artist/2ezYPSKWBfnFTobN9puCow",
         "options": [
             "Tankcsapda",
             "Quimby",
@@ -261,7 +261,7 @@ MAGYAR_ZENEKAROK_QUESTIONS = [
     },
     {
         "question": "Ki az előadó?",
-        "spotify_embed": "https://open.spotify.com/embed/artist/5hBCfYFEDK8otrksMYuzoL",
+        "spotify_embed": "https://open.spotify.com/embed/artist/51BZWZTWqI7GjrgHw3Wvuw",
         "options": [
             "P. Mobil",
             "Quimby",
@@ -274,7 +274,7 @@ MAGYAR_ZENEKAROK_QUESTIONS = [
     },
     {
         "question": "Ki az előadó?",
-        "spotify_embed": "https://open.spotify.com/embed/artist/5hBCfYFEDK8otrksMYuzoL",
+        "spotify_embed": "https://open.spotify.com/embed/artist/4imSxhDqtkiuKUamV1AL2l",
         "options": [
             "Republic",
             "Quimby",
@@ -287,7 +287,7 @@ MAGYAR_ZENEKAROK_QUESTIONS = [
     },
     {
         "question": "Ki az előadó?",
-        "spotify_embed": "https://open.spotify.com/embed/artist/5hBCfYFEDK8otrksMYuzoL",
+        "spotify_embed": "https://open.spotify.com/embed/artist/4BcSup56aUUtG55MkrsHDx",
         "options": [
             "Bonanza Banzai",
             "Quimby",
@@ -300,7 +300,7 @@ MAGYAR_ZENEKAROK_QUESTIONS = [
     },
     {
         "question": "Ki az előadó?",
-        "spotify_embed": "https://open.spotify.com/embed/artist/5hBCfYFEDK8otrksMYuzoL",
+        "spotify_embed": "https://open.spotify.com/embed/artist/7KRmqRSdAGjiSDns2qsdQ8",
         "options": [
             "Korai Öröm",
             "Quimby",
