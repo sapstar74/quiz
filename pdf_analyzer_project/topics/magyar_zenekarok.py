@@ -95,9 +95,9 @@ MAGYAR_ZENEKAROK_QUESTIONS = [
         "spotify_embed": "https://open.spotify.com/embed/artist/5hBCfYFEDK8otrksMYuzoL",
         "options": [
             "Parno Graszt",
-            "Palya Bea",
-            "Bohemian Betyars",
-            "Aurevoir"
+            "Muzsikás",
+            "Septic",
+            "Korai Öröm"
         ],
         "correct": 0,
         "explanation": "Parno Graszt magyar roma/népzene zenekar",
@@ -108,9 +108,9 @@ MAGYAR_ZENEKAROK_QUESTIONS = [
         "spotify_embed": "https://open.spotify.com/embed/artist/7KRmqRSdAGjiSDns2qsdQ8",
         "options": [
             "Palya Bea",
-            "Parno Graszt",
-            "Bohemian Betyars",
-            "Aurevoir"
+            "Muzsikás",
+            "Septic",
+            "Korai Öröm"
         ],
         "correct": 0,
         "explanation": "Palya Bea magyar roma/népzene zenekar",
@@ -121,9 +121,9 @@ MAGYAR_ZENEKAROK_QUESTIONS = [
         "spotify_embed": "https://open.spotify.com/embed/artist/2ezYPSKWBfnFTobN9puCow",
         "options": [
             "Bohemian Betyars",
-            "Parno Graszt",
-            "Palya Bea",
-            "Aurevoir"
+            "Muzsikás",
+            "Septic",
+            "Korai Öröm"
         ],
         "correct": 0,
         "explanation": "Bohemian Betyars magyar roma/népzene zenekar",
@@ -134,9 +134,9 @@ MAGYAR_ZENEKAROK_QUESTIONS = [
         "spotify_embed": "https://open.spotify.com/embed/artist/51BZWZTWqI7GjrgHw3Wvuw",
         "options": [
             "Aurevoir",
-            "Parno Graszt",
-            "Palya Bea",
-            "Bohemian Betyars"
+            "Muzsikás",
+            "Septic",
+            "Korai Öröm"
         ],
         "correct": 0,
         "explanation": "Aurevoir magyar roma/népzene zenekar",
@@ -147,9 +147,9 @@ MAGYAR_ZENEKAROK_QUESTIONS = [
         "spotify_embed": "https://open.spotify.com/embed/artist/4imSxhDqtkiuKUamV1AL2l",
         "options": [
             "Dánielffy",
-            "Parno Graszt",
-            "Palya Bea",
-            "Bohemian Betyars"
+            "Muzsikás",
+            "Septic",
+            "Korai Öröm"
         ],
         "correct": 0,
         "explanation": "Dánielffy magyar roma/népzene zenekar",
@@ -160,9 +160,9 @@ MAGYAR_ZENEKAROK_QUESTIONS = [
         "spotify_embed": "https://open.spotify.com/embed/artist/4BcSup56aUUtG55MkrsHDx",
         "options": [
             "Ham Ko Ham",
-            "Parno Graszt",
-            "Palya Bea",
-            "Bohemian Betyars"
+            "Muzsikás",
+            "Septic",
+            "Korai Öröm"
         ],
         "correct": 0,
         "explanation": "Ham Ko Ham magyar roma/népzene zenekar",
