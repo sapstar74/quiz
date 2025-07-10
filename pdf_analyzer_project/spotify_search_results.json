@@ -1,0 +1,560 @@
+[
+  {
+    "question_index": 0,
+    "composer": "Dvorak",
+    "piece": "IX. Új világ szimfónia",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 1,
+    "composer": "Dvorak",
+    "piece": "Humoresque",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 2,
+    "composer": "Dvorak",
+    "piece": "8. G-dúr szimfónia",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 3,
+    "composer": "Beethoven",
+    "piece": "V. Szimfónia - A sors szimfónia",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 4,
+    "composer": "Beethoven",
+    "piece": "Holdvilág szonáta - Mondscheinsonate",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 5,
+    "composer": "Beethoven",
+    "piece": "Ode to Joy - 9. szimfónia",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 6,
+    "composer": "Beethoven",
+    "piece": "Symphony 7. in A major",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 7,
+    "composer": "Csajkovszkij",
+    "piece": "Diótörő - Tánc a cukorkák hercegnőjéről",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 8,
+    "composer": "Csajkovszkij",
+    "piece": "Hattyúk tava - Tánc a kis hattyúkról",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 9,
+    "composer": "Csajkovszkij",
+    "piece": "1. Zongoraverseny",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 10,
+    "composer": "Csajkovszkij",
+    "piece": "Rómeó és Júlia finálé",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 11,
+    "composer": "Handel",
+    "piece": "Rinaldo",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 12,
+    "composer": "Handel",
+    "piece": "IV. B-dúr menüett",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 13,
+    "composer": "Handel",
+    "piece": "Keyboard Suite in D minor",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 14,
+    "composer": "Wagner",
+    "piece": "A Valkűrök bevonulása",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 15,
+    "composer": "Wagner",
+    "piece": "Here comes the Bride",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 16,
+    "composer": "Wagner",
+    "piece": "Ave Maria",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 17,
+    "composer": "Wagner",
+    "piece": "Ode to Joy",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 18,
+    "composer": "Kodály Zoltán",
+    "piece": "Háry János",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 19,
+    "composer": "Kodály Zoltán",
+    "piece": "Kállai kettős",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 20,
+    "composer": "Kodály Zoltán",
+    "piece": "Adagio",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 21,
+    "composer": "Vivaldi",
+    "piece": "4 évszak",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 22,
+    "composer": "Vivaldi",
+    "piece": "Szonáta",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 23,
+    "composer": "Brahms",
+    "piece": "Magyar táncok",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 24,
+    "composer": "Liszt",
+    "piece": "Magyar rapszódia",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 25,
+    "composer": "Liszt",
+    "piece": "Liebestraum",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 26,
+    "composer": "Liszt",
+    "piece": "La campanella",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 27,
+    "composer": "Liszt",
+    "piece": "Rákóczi induló",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 28,
+    "composer": "Liszt",
+    "piece": "Consolation",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 29,
+    "composer": "Chopin",
+    "piece": "Sonata 2 in B flat minor",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 30,
+    "composer": "Grieg",
+    "piece": "Peer Gynt Op. 23",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 31,
+    "composer": "Grieg",
+    "piece": "A hegyi király udvarában",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 32,
+    "composer": "Shostakovich",
+    "piece": "Second waltz",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 33,
+    "composer": "Gershwin",
+    "piece": "Rhapsody in Blue",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 34,
+    "composer": "Bizet",
+    "piece": "Carmen",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 35,
+    "composer": "Mozart",
+    "piece": "Eine kleine Nachtmusik (K. 525) - A kis éji zene",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 36,
+    "composer": "Mozart",
+    "piece": "Török induló - A-túr szonáta",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 37,
+    "composer": "Rossini",
+    "piece": "Tell Vilmos nyitány",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 38,
+    "composer": "Rossini",
+    "piece": "Sevillai borbély",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 39,
+    "composer": "Verdi",
+    "piece": "Traviata",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 40,
+    "composer": "Verdi",
+    "piece": "Aida",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 41,
+    "composer": "Bartók",
+    "piece": "Román táncok",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 42,
+    "composer": "Bartók",
+    "piece": "Allegro Barbaro",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 43,
+    "composer": "Bartók",
+    "piece": "Kékszakállú herceg vára",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 44,
+    "composer": "Bartók",
+    "piece": "Csodálatos mandarin",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 45,
+    "composer": "Hacsaturján",
+    "piece": "Kartánc",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 46,
+    "composer": "Hacsaturján",
+    "piece": "Spartacus / Onedin",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 47,
+    "composer": "Weiner Leó",
+    "piece": "Rókatánc",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 48,
+    "composer": "Schubert",
+    "piece": "Pisztráng ötös",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 49,
+    "composer": "Rimsky-Korsakov",
+    "piece": "Bumblebee",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 50,
+    "composer": "Mussorgsky",
+    "piece": "Éjszaka a hegyen",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 51,
+    "composer": "Prokofjev",
+    "piece": "Péter és a farkas",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 52,
+    "composer": "Carl Orff",
+    "piece": "Carmina Burana",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 53,
+    "composer": "Ravel",
+    "piece": "Bolero",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 54,
+    "composer": "Bach",
+    "piece": "Brandenburgi versenyek - 3. verseny",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 55,
+    "composer": "Bach",
+    "piece": "Toccata és fúga d-moll",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 56,
+    "composer": "Bach",
+    "piece": "Air on G-string",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 57,
+    "composer": "Bach",
+    "piece": "Italian Concerto",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 58,
+    "composer": "Bach",
+    "piece": "Jesu, Joy of Man",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 59,
+    "composer": "Bach",
+    "piece": "Brandenburg Concerto No. 5",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 60,
+    "composer": "Bach",
+    "piece": "Vivace",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  },
+  {
+    "question_index": 61,
+    "composer": "Bach",
+    "piece": "G-dúr menüett",
+    "spotify_embed": null,
+    "found_track": null,
+    "found_artist": null,
+    "confidence": "none"
+  }
+]

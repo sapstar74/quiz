@@ -1,0 +1,11 @@
+# Alapvető PDF feldolgozás
+streamlit>=1.28.0
+PyPDF2>=3.0.1
+pdfplumber>=0.9.0
+
+# Alapvető adatkezelés
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Segédeszközök
+python-dotenv>=1.0.0 
