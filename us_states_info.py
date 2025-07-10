@@ -1,0 +1,257 @@
+import os
+import requests
+import io
+from PIL import Image, ImageDraw, ImageFont
+import docx
+from docx.shared import Cm, Pt
+from docx.enum.text import WD_ALIGN_PARAGRAPH
+import time
+import json
+import sys
+
+# Create directory for state seals
+os.makedirs('us_state_seals', exist_ok=True)
+
+# Dictionary of US states with their capitals
+US_STATES = [
+    {"name": "Alabama", "abbreviation": "AL", "capital": "Montgomery"},
+    {"name": "Alaska", "abbreviation": "AK", "capital": "Juneau"},
+    {"name": "Arizona", "abbreviation": "AZ", "capital": "Phoenix"},
+    {"name": "Arkansas", "abbreviation": "AR", "capital": "Little Rock"},
+    {"name": "California", "abbreviation": "CA", "capital": "Sacramento"},
+    {"name": "Colorado", "abbreviation": "CO", "capital": "Denver"},
+    {"name": "Connecticut", "abbreviation": "CT", "capital": "Hartford"},
+    {"name": "Delaware", "abbreviation": "DE", "capital": "Dover"},
+    {"name": "Florida", "abbreviation": "FL", "capital": "Tallahassee"},
+    {"name": "Georgia", "abbreviation": "GA", "capital": "Atlanta"},
+    {"name": "Hawaii", "abbreviation": "HI", "capital": "Honolulu"},
+    {"name": "Idaho", "abbreviation": "ID", "capital": "Boise"},
+    {"name": "Illinois", "abbreviation": "IL", "capital": "Springfield"},
+    {"name": "Indiana", "abbreviation": "IN", "capital": "Indianapolis"},
+    {"name": "Iowa", "abbreviation": "IA", "capital": "Des Moines"},
+    {"name": "Kansas", "abbreviation": "KS", "capital": "Topeka"},
+    {"name": "Kentucky", "abbreviation": "KY", "capital": "Frankfort"},
+    {"name": "Louisiana", "abbreviation": "LA", "capital": "Baton Rouge"},
+    {"name": "Maine", "abbreviation": "ME", "capital": "Augusta"},
+    {"name": "Maryland", "abbreviation": "MD", "capital": "Annapolis"},
+    {"name": "Massachusetts", "abbreviation": "MA", "capital": "Boston"},
+    {"name": "Michigan", "abbreviation": "MI", "capital": "Lansing"},
+    {"name": "Minnesota", "abbreviation": "MN", "capital": "Saint Paul"},
+    {"name": "Mississippi", "abbreviation": "MS", "capital": "Jackson"},
+    {"name": "Missouri", "abbreviation": "MO", "capital": "Jefferson City"},
+    {"name": "Montana", "abbreviation": "MT", "capital": "Helena"},
+    {"name": "Nebraska", "abbreviation": "NE", "capital": "Lincoln"},
+    {"name": "Nevada", "abbreviation": "NV", "capital": "Carson City"},
+    {"name": "New Hampshire", "abbreviation": "NH", "capital": "Concord"},
+    {"name": "New Jersey", "abbreviation": "NJ", "capital": "Trenton"},
+    {"name": "New Mexico", "abbreviation": "NM", "capital": "Santa Fe"},
+    {"name": "New York", "abbreviation": "NY", "capital": "Albany"},
+    {"name": "North Carolina", "abbreviation": "NC", "capital": "Raleigh"},
+    {"name": "North Dakota", "abbreviation": "ND", "capital": "Bismarck"},
+    {"name": "Ohio", "abbreviation": "OH", "capital": "Columbus"},
+    {"name": "Oklahoma", "abbreviation": "OK", "capital": "Oklahoma City"},
+    {"name": "Oregon", "abbreviation": "OR", "capital": "Salem"},
+    {"name": "Pennsylvania", "abbreviation": "PA", "capital": "Harrisburg"},
+    {"name": "Rhode Island", "abbreviation": "RI", "capital": "Providence"},
+    {"name": "South Carolina", "abbreviation": "SC", "capital": "Columbia"},
+    {"name": "South Dakota", "abbreviation": "SD", "capital": "Pierre"},
+    {"name": "Tennessee", "abbreviation": "TN", "capital": "Nashville"},
+    {"name": "Texas", "abbreviation": "TX", "capital": "Austin"},
+    {"name": "Utah", "abbreviation": "UT", "capital": "Salt Lake City"},
+    {"name": "Vermont", "abbreviation": "VT", "capital": "Montpelier"},
+    {"name": "Virginia", "abbreviation": "VA", "capital": "Richmond"},
+    {"name": "Washington", "abbreviation": "WA", "capital": "Olympia"},
+    {"name": "West Virginia", "abbreviation": "WV", "capital": "Charleston"},
+    {"name": "Wisconsin", "abbreviation": "WI", "capital": "Madison"},
+    {"name": "Wyoming", "abbreviation": "WY", "capital": "Cheyenne"},
+]
+
+def create_text_image(text, size=(200, 200), bg_color=(240, 240, 240), text_color=(0, 0, 0)):
+    """Create a text image as a placeholder for missing state seals."""
+    img = Image.new('RGB', size, color=bg_color)
+    draw = ImageDraw.Draw(img)
+    try:
+        # Try to use a TrueType font if available
+        font = ImageFont.truetype("Arial", 20)
+    except IOError:
+        # Fall back to default font
+        font = ImageFont.load_default()
+    
+    # Draw multiline text centered
+    lines = text.split('\n')
+    line_height = font.getsize('A')[1] + 5
+    total_height = len(lines) * line_height
+    y_position = (size[1] - total_height) // 2
+    
+    for line in lines:
+        # Calculate width of this line and center horizontally
+        line_width = font.getsize(line)[0]
+        x_position = (size[0] - line_width) // 2
+        draw.text((x_position, y_position), line, font=font, fill=text_color)
+        y_position += line_height
+    
+    return img
+
+def download_state_seal(state_name, state_abbr):
+    """Download a state seal image from Wikipedia or fallback to another source."""
+    img_path = os.path.join('us_state_seals', f"{state_abbr}.png")
+    
+    # If image already exists, return its path
+    if os.path.exists(img_path):
+        return img_path
+    
+    # Try Wikipedia URL for state seal
+    try:
+        # URL format for Wikipedia state seals
+        url = f"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Seal_of_{state_name.replace(' ', '_')}.svg/200px-Seal_of_{state_name.replace(' ', '_')}.svg.png"
+        response = requests.get(url, timeout=10)
+        
+        if response.status_code == 200:
+            # Save the image
+            with open(img_path, 'wb') as f:
+                f.write(response.content)
+            print(f"Successfully downloaded seal for {state_name}")
+            return img_path
+    except Exception as e:
+        print(f"Error downloading seal for {state_name} from Wikipedia: {e}")
+    
+    # Try an alternative source if Wikipedia fails
+    try:
+        alt_url = f"https://www.50states.com/images/redesign/seals/{state_abbr.lower()}-seal.png"
+        response = requests.get(alt_url, timeout=10)
+        
+        if response.status_code == 200:
+            # Save the image
+            with open(img_path, 'wb') as f:
+                f.write(response.content)
+            print(f"Successfully downloaded seal for {state_name} from alternative source")
+            return img_path
+    except Exception as e:
+        print(f"Error downloading seal for {state_name} from alternative source: {e}")
+    
+    # If all else fails, create a placeholder image
+    try:
+        placeholder = create_text_image(f"Seal of\n{state_name}")
+        placeholder.save(img_path)
+        print(f"Created placeholder seal for {state_name}")
+        return img_path
+    except Exception as e:
+        print(f"Error creating placeholder for {state_name}: {e}")
+        return None
+
+def download_all_state_seals():
+    """Download all state seals and return results."""
+    results = {"success": [], "failed": []}
+    
+    for state in US_STATES:
+        state_name = state["name"]
+        state_abbr = state["abbreviation"]
+        
+        img_path = download_state_seal(state_name, state_abbr)
+        
+        if img_path and os.path.exists(img_path):
+            results["success"].append({
+                "state": state_name,
+                "abbr": state_abbr,
+                "path": img_path
+            })
+        else:
+            results["failed"].append({
+                "state": state_name,
+                "abbr": state_abbr
+            })
+        
+        # Add a small delay to avoid overwhelming servers
+        time.sleep(0.2)
+    
+    # Save results to a JSON file for reference
+    with open('us_state_seals/download_results.json', 'w') as f:
+        json.dump(results, f, indent=2)
+    
+    return results
+
+def create_us_states_doc():
+    """Create a Word document with all US states, their seals, and capitals."""
+    # First download all state seals
+    print("Downloading state seals...")
+    results = download_all_state_seals()
+    print(f"Downloaded {len(results['success'])} state seals successfully")
+    if results['failed']:
+        print(f"Failed to download {len(results['failed'])} state seals")
+    
+    # Create a Word document
+    doc = docx.Document()
+    
+    # Set document properties
+    doc.core_properties.title = "United States - States and Capitals"
+    
+    # Set document margins (smaller margins for better fit)
+    sections = doc.sections
+    for section in sections:
+        section.top_margin = Cm(1.5)
+        section.bottom_margin = Cm(1.5)
+        section.left_margin = Cm(1.5)
+        section.right_margin = Cm(1.5)
+    
+    # Add a title
+    title = doc.add_heading("United States - States and Capitals", level=1)
+    title.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    
+    # Create a table with 5 states per row
+    # Total rows needed: ceil(50/5) = 10 rows
+    table = doc.add_table(rows=10, cols=5)
+    table.style = 'Table Grid'
+    table.autofit = False
+    
+    # Set table width to fill page
+    table.width = Cm(18)
+    
+    # Set equal width for each column
+    for cell in table.columns:
+        cell.width = Cm(3.6)
+    
+    # Add states to the table
+    for i, state in enumerate(US_STATES):
+        # Calculate row and column position
+        row = i // 5
+        col = i % 5
+        
+        # Get cell
+        cell = table.cell(row, col)
+        
+        # Add state name as cell heading
+        state_para = cell.paragraphs[0]
+        state_para.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        state_run = state_para.add_run(state["name"])
+        state_run.bold = True
+        state_run.font.size = Pt(10)
+        
+        # Add state seal image
+        img_path = os.path.join('us_state_seals', f"{state['abbreviation']}.png")
+        if os.path.exists(img_path):
+            try:
+                cell.add_paragraph().add_run().add_picture(img_path, width=Cm(3.0))
+            except Exception as e:
+                print(f"Error adding image for {state['name']}: {e}")
+                # Add a placeholder text instead
+                p = cell.add_paragraph()
+                p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+                p.add_run("[Seal Image]")
+        
+        # Add capital city
+        capital_para = cell.add_paragraph()
+        capital_para.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        capital_run = capital_para.add_run(f"Capital: {state['capital']}")
+        capital_run.font.size = Pt(9)
+        
+        # Set row height
+        cell.vertical_alignment = 1  # centered
+    
+    # Save the document
+    output_file = "us_states_capitals.docx"
+    doc.save(output_file)
+    print(f"Document created successfully: {output_file}")
+    return output_file
+
+if __name__ == "__main__":
+    create_us_states_doc() 

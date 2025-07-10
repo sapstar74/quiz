@@ -1,0 +1,81 @@
+import cv2
+import numpy as np
+from openpyxl import load_workbook
+from PIL import Image
+from pyzbar.pyzbar import decode
+import io
+import base64
+
+def extract_qr_from_excel(excel_path, output_file):
+    """
+    Extract QR codes from an Excel file and save decoded links to a text file.
+    
+    Args:
+        excel_path (str): Path to the Excel file
+        output_file (str): Path to save the decoded links
+    """
+    # Load the workbook
+    wb = load_workbook(excel_path)
+    ws = wb.active
+    
+    decoded_links = []
+    
+    # Process each image in the worksheet
+    for image in ws._images:
+        try:
+            # Get the image data from the drawing
+            if hasattr(image, 'ref'):
+                img_data = image.ref
+            else:
+                # Try to get the image data from the drawing
+                img_data = image.drawing.pic.blipFill.blip.embed
+                img_data = wb._images[img_data].ref
+            
+            # Convert to bytes if it's a string
+            if isinstance(img_data, str):
+                img_data = base64.b64decode(img_data)
+            
+            # Convert to numpy array for OpenCV
+            img = Image.open(io.BytesIO(img_data))
+            img_np = np.array(img)
+            
+            # Convert to grayscale
+            if len(img_np.shape) == 3:  # If image is RGB
+                gray = cv2.cvtColor(img_np, cv2.COLOR_RGB2GRAY)
+            else:  # If image is already grayscale
+                gray = img_np
+            
+            # Decode QR code
+            decoded_objects = decode(gray)
+            
+            # Extract the data from QR codes
+            for obj in decoded_objects:
+                decoded_links.append(obj.data.decode('utf-8'))
+                
+        except Exception as e:
+            print(f"Warning: Could not process image: {str(e)}")
+            continue
+    
+    # Save decoded links to text file
+    with open(output_file, 'w', encoding='utf-8') as f:
+        for link in decoded_links:
+            f.write(f"{link}\n")
+    
+    return len(decoded_links)
+
+if __name__ == "__main__":
+    import sys
+    
+    if len(sys.argv) != 3:
+        print("Usage: python qr_decoder.py <excel_file> <output_file>")
+        sys.exit(1)
+    
+    excel_path = sys.argv[1]
+    output_file = sys.argv[2]
+    
+    try:
+        num_decoded = extract_qr_from_excel(excel_path, output_file)
+        print(f"Successfully decoded {num_decoded} QR codes. Results saved to {output_file}")
+    except Exception as e:
+        print(f"Error: {str(e)}")
+        sys.exit(1) 

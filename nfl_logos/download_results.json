@@ -1,0 +1,197 @@
+{
+  "successful": [
+    {
+      "team_id": "BUF",
+      "name": "Buffalo Bills",
+      "division": "AFC East",
+      "logo_path": "BUF_Bills.png"
+    },
+    {
+      "team_id": "MIA",
+      "name": "Miami Dolphins",
+      "division": "AFC East",
+      "logo_path": "MIA_Dolphins.png"
+    },
+    {
+      "team_id": "NE",
+      "name": "New England Patriots",
+      "division": "AFC East",
+      "logo_path": "NE_Patriots.png"
+    },
+    {
+      "team_id": "NYJ",
+      "name": "New York Jets",
+      "division": "AFC East",
+      "logo_path": "NYJ_Jets.png"
+    },
+    {
+      "team_id": "BAL",
+      "name": "Baltimore Ravens",
+      "division": "AFC North",
+      "logo_path": "BAL_Ravens.png"
+    },
+    {
+      "team_id": "CIN",
+      "name": "Cincinnati Bengals",
+      "division": "AFC North",
+      "logo_path": "CIN_Bengals.png"
+    },
+    {
+      "team_id": "CLE",
+      "name": "Cleveland Browns",
+      "division": "AFC North",
+      "logo_path": "CLE_Browns.png"
+    },
+    {
+      "team_id": "PIT",
+      "name": "Pittsburgh Steelers",
+      "division": "AFC North",
+      "logo_path": "PIT_Steelers.png"
+    },
+    {
+      "team_id": "HOU",
+      "name": "Houston Texans",
+      "division": "AFC South",
+      "logo_path": "HOU_Texans.png"
+    },
+    {
+      "team_id": "IND",
+      "name": "Indianapolis Colts",
+      "division": "AFC South",
+      "logo_path": "IND_Colts.png"
+    },
+    {
+      "team_id": "JAX",
+      "name": "Jacksonville Jaguars",
+      "division": "AFC South",
+      "logo_path": "JAX_Jaguars.png"
+    },
+    {
+      "team_id": "TEN",
+      "name": "Tennessee Titans",
+      "division": "AFC South",
+      "logo_path": "TEN_Titans.png"
+    },
+    {
+      "team_id": "DEN",
+      "name": "Denver Broncos",
+      "division": "AFC West",
+      "logo_path": "DEN_Broncos.png"
+    },
+    {
+      "team_id": "KC",
+      "name": "Kansas City Chiefs",
+      "division": "AFC West",
+      "logo_path": "KC_Chiefs.png"
+    },
+    {
+      "team_id": "LV",
+      "name": "Las Vegas Raiders",
+      "division": "AFC West",
+      "logo_path": "LV_Raiders.png"
+    },
+    {
+      "team_id": "LAC",
+      "name": "Los Angeles Chargers",
+      "division": "AFC West",
+      "logo_path": "LAC_Chargers.png"
+    },
+    {
+      "team_id": "DAL",
+      "name": "Dallas Cowboys",
+      "division": "NFC East",
+      "logo_path": "DAL_Cowboys.png"
+    },
+    {
+      "team_id": "NYG",
+      "name": "New York Giants",
+      "division": "NFC East",
+      "logo_path": "NYG_Giants.png"
+    },
+    {
+      "team_id": "PHI",
+      "name": "Philadelphia Eagles",
+      "division": "NFC East",
+      "logo_path": "PHI_Eagles.png"
+    },
+    {
+      "team_id": "WAS",
+      "name": "Washington Commanders",
+      "division": "NFC East",
+      "logo_path": "WAS_Commanders.png"
+    },
+    {
+      "team_id": "CHI",
+      "name": "Chicago Bears",
+      "division": "NFC North",
+      "logo_path": "CHI_Bears.png"
+    },
+    {
+      "team_id": "DET",
+      "name": "Detroit Lions",
+      "division": "NFC North",
+      "logo_path": "DET_Lions.png"
+    },
+    {
+      "team_id": "GB",
+      "name": "Green Bay Packers",
+      "division": "NFC North",
+      "logo_path": "GB_Packers.png"
+    },
+    {
+      "team_id": "MIN",
+      "name": "Minnesota Vikings",
+      "division": "NFC North",
+      "logo_path": "MIN_Vikings.png"
+    },
+    {
+      "team_id": "ATL",
+      "name": "Atlanta Falcons",
+      "division": "NFC South",
+      "logo_path": "ATL_Falcons.png"
+    },
+    {
+      "team_id": "CAR",
+      "name": "Carolina Panthers",
+      "division": "NFC South",
+      "logo_path": "CAR_Panthers.png"
+    },
+    {
+      "team_id": "NO",
+      "name": "New Orleans Saints",
+      "division": "NFC South",
+      "logo_path": "NO_Saints.png"
+    },
+    {
+      "team_id": "TB",
+      "name": "Tampa Bay Buccaneers",
+      "division": "NFC South",
+      "logo_path": "TB_Buccaneers.png"
+    },
+    {
+      "team_id": "ARI",
+      "name": "Arizona Cardinals",
+      "division": "NFC West",
+      "logo_path": "ARI_Cardinals.png"
+    },
+    {
+      "team_id": "LA",
+      "name": "Los Angeles Rams",
+      "division": "NFC West",
+      "logo_path": "LA_Rams.png"
+    },
+    {
+      "team_id": "SF",
+      "name": "San Francisco 49ers",
+      "division": "NFC West",
+      "logo_path": "SF_49ers.png"
+    },
+    {
+      "team_id": "SEA",
+      "name": "Seattle Seahawks",
+      "division": "NFC West",
+      "logo_path": "SEA_Seahawks.png"
+    }
+  ],
+  "failed": []
+}

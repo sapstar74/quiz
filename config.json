@@ -1,0 +1,137 @@
+{
+  "project_settings": {
+    "project_name": "Equipment Recognition System",
+    "version": "1.0.0",
+    "author": "Equipment Recognition Team",
+    "description": "Műszaki berendezések automatikus felismerése"
+  },
+  
+  "image_processing": {
+    "supported_formats": [".jpg", ".jpeg", ".png", ".bmp", ".tiff"],
+    "max_image_size": {
+      "width": 1920,
+      "height": 1080
+    },
+    "preprocessing": {
+      "resize_enabled": true,
+      "enhance_contrast": true,
+      "edge_detection": true,
+      "noise_reduction": true
+    }
+  },
+  
+  "detection_settings": {
+    "opencv": {
+      "enabled": true,
+      "min_object_area": 1000,
+      "contour_method": "RETR_EXTERNAL",
+      "approximation_method": "CHAIN_APPROX_SIMPLE"
+    },
+    "yolo": {
+      "enabled": false,
+      "model_path": "yolov8n.pt",
+      "confidence_threshold": 0.5,
+      "iou_threshold": 0.45
+    },
+    "google_vision": {
+      "enabled": false,
+      "api_key": "",
+      "max_results": 50
+    }
+  },
+  
+  "classification": {
+    "equipment_categories": {
+      "electrical": {
+        "types": ["transformer", "generator", "motor", "panel", "switch", "relay"],
+        "color": [255, 0, 0]
+      },
+      "mechanical": {
+        "types": ["pump", "compressor", "valve", "bearing", "gear", "turbine"],
+        "color": [0, 255, 0]
+      },
+      "instrumentation": {
+        "types": ["gauge", "sensor", "meter", "transmitter", "controller"],
+        "color": [0, 0, 255]
+      },
+      "piping": {
+        "types": ["pipe", "fitting", "flange", "elbow", "tee", "reducer"],
+        "color": [255, 255, 0]
+      },
+      "hvac": {
+        "types": ["fan", "duct", "damper", "filter", "coil", "unit"],
+        "color": [255, 0, 255]
+      }
+    },
+    "rules": {
+      "pipe_aspect_ratio_min": 3.0,
+      "pipe_aspect_ratio_max": 0.3,
+      "square_object_ratio_min": 0.8,
+      "square_object_ratio_max": 1.2,
+      "large_object_area_threshold": 10000,
+      "high_solidity_threshold": 0.9
+    }
+  },
+  
+  "output_settings": {
+    "results_directory": "recognition_results",
+    "save_annotated_images": true,
+    "save_json_reports": true,
+    "save_csv_reports": false,
+    "image_format": "jpg",
+    "image_quality": 95
+  },
+  
+  "visualization": {
+    "bounding_box": {
+      "thickness": 2,
+      "color": [0, 255, 0]
+    },
+    "labels": {
+      "font": "FONT_HERSHEY_SIMPLEX",
+      "font_scale": 0.6,
+      "thickness": 2,
+      "show_confidence": true
+    }
+  },
+  
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s - %(levelname)s - %(message)s",
+    "file_output": false,
+    "log_file": "equipment_recognition.log"
+  },
+  
+  "performance": {
+    "use_gpu": false,
+    "batch_processing": false,
+    "batch_size": 4,
+    "num_workers": 2,
+    "memory_limit_mb": 4096
+  },
+  
+  "api_keys": {
+    "google_vision": "",
+    "aws_rekognition": "",
+    "azure_computer_vision": "",
+    "roboflow": ""
+  },
+  
+  "database": {
+    "enabled": false,
+    "type": "sqlite",
+    "connection_string": "equipment_recognition.db",
+    "tables": {
+      "detections": "detections",
+      "images": "images",
+      "reports": "reports"
+    }
+  },
+  
+  "web_interface": {
+    "enabled": false,
+    "host": "localhost",
+    "port": 5000,
+    "debug": false
+  }
+} 

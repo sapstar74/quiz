@@ -1,0 +1,185 @@
+{
+  "successful": [
+    {
+      "team_id": 1610612738,
+      "name": "Boston Celtics",
+      "abbreviation": "BOS",
+      "logo_path": "1610612738_BOS_Celtics.png"
+    },
+    {
+      "team_id": 1610612751,
+      "name": "Brooklyn Nets",
+      "abbreviation": "BKN",
+      "logo_path": "1610612751_BKN_Nets.png"
+    },
+    {
+      "team_id": 1610612752,
+      "name": "New York Knicks",
+      "abbreviation": "NYK",
+      "logo_path": "1610612752_NYK_Knicks.png"
+    },
+    {
+      "team_id": 1610612755,
+      "name": "Philadelphia 76ers",
+      "abbreviation": "PHI",
+      "logo_path": "1610612755_PHI_76ers.png"
+    },
+    {
+      "team_id": 1610612761,
+      "name": "Toronto Raptors",
+      "abbreviation": "TOR",
+      "logo_path": "1610612761_TOR_Raptors.png"
+    },
+    {
+      "team_id": 1610612741,
+      "name": "Chicago Bulls",
+      "abbreviation": "CHI",
+      "logo_path": "1610612741_CHI_Bulls.png"
+    },
+    {
+      "team_id": 1610612739,
+      "name": "Cleveland Cavaliers",
+      "abbreviation": "CLE",
+      "logo_path": "1610612739_CLE_Cavaliers.png"
+    },
+    {
+      "team_id": 1610612765,
+      "name": "Detroit Pistons",
+      "abbreviation": "DET",
+      "logo_path": "1610612765_DET_Pistons.png"
+    },
+    {
+      "team_id": 1610612754,
+      "name": "Indiana Pacers",
+      "abbreviation": "IND",
+      "logo_path": "1610612754_IND_Pacers.png"
+    },
+    {
+      "team_id": 1610612749,
+      "name": "Milwaukee Bucks",
+      "abbreviation": "MIL",
+      "logo_path": "1610612749_MIL_Bucks.png"
+    },
+    {
+      "team_id": 1610612737,
+      "name": "Atlanta Hawks",
+      "abbreviation": "ATL",
+      "logo_path": "1610612737_ATL_Hawks.png"
+    },
+    {
+      "team_id": 1610612766,
+      "name": "Charlotte Hornets",
+      "abbreviation": "CHA",
+      "logo_path": "1610612766_CHA_Hornets.png"
+    },
+    {
+      "team_id": 1610612748,
+      "name": "Miami Heat",
+      "abbreviation": "MIA",
+      "logo_path": "1610612748_MIA_Heat.png"
+    },
+    {
+      "team_id": 1610612753,
+      "name": "Orlando Magic",
+      "abbreviation": "ORL",
+      "logo_path": "1610612753_ORL_Magic.png"
+    },
+    {
+      "team_id": 1610612764,
+      "name": "Washington Wizards",
+      "abbreviation": "WAS",
+      "logo_path": "1610612764_WAS_Wizards.png"
+    },
+    {
+      "team_id": 1610612743,
+      "name": "Denver Nuggets",
+      "abbreviation": "DEN",
+      "logo_path": "1610612743_DEN_Nuggets.png"
+    },
+    {
+      "team_id": 1610612750,
+      "name": "Minnesota Timberwolves",
+      "abbreviation": "MIN",
+      "logo_path": "1610612750_MIN_Timberwolves.png"
+    },
+    {
+      "team_id": 1610612760,
+      "name": "Oklahoma City Thunder",
+      "abbreviation": "OKC",
+      "logo_path": "1610612760_OKC_Thunder.png"
+    },
+    {
+      "team_id": 1610612757,
+      "name": "Portland Trail Blazers",
+      "abbreviation": "POR",
+      "logo_path": "1610612757_POR_Trail Blazers.png"
+    },
+    {
+      "team_id": 1610612762,
+      "name": "Utah Jazz",
+      "abbreviation": "UTA",
+      "logo_path": "1610612762_UTA_Jazz.png"
+    },
+    {
+      "team_id": 1610612744,
+      "name": "Golden State Warriors",
+      "abbreviation": "GSW",
+      "logo_path": "1610612744_GSW_Warriors.png"
+    },
+    {
+      "team_id": 1610612746,
+      "name": "Los Angeles Clippers",
+      "abbreviation": "LAC",
+      "logo_path": "1610612746_LAC_Clippers.png"
+    },
+    {
+      "team_id": 1610612747,
+      "name": "Los Angeles Lakers",
+      "abbreviation": "LAL",
+      "logo_path": "1610612747_LAL_Lakers.png"
+    },
+    {
+      "team_id": 1610612756,
+      "name": "Phoenix Suns",
+      "abbreviation": "PHX",
+      "logo_path": "1610612756_PHX_Suns.png"
+    },
+    {
+      "team_id": 1610612758,
+      "name": "Sacramento Kings",
+      "abbreviation": "SAC",
+      "logo_path": "1610612758_SAC_Kings.png"
+    },
+    {
+      "team_id": 1610612742,
+      "name": "Dallas Mavericks",
+      "abbreviation": "DAL",
+      "logo_path": "1610612742_DAL_Mavericks.png"
+    },
+    {
+      "team_id": 1610612745,
+      "name": "Houston Rockets",
+      "abbreviation": "HOU",
+      "logo_path": "1610612745_HOU_Rockets.png"
+    },
+    {
+      "team_id": 1610612763,
+      "name": "Memphis Grizzlies",
+      "abbreviation": "MEM",
+      "logo_path": "1610612763_MEM_Grizzlies.png"
+    },
+    {
+      "team_id": 1610612740,
+      "name": "New Orleans Pelicans",
+      "abbreviation": "NOP",
+      "logo_path": "1610612740_NOP_Pelicans.png"
+    },
+    {
+      "team_id": 1610612759,
+      "name": "San Antonio Spurs",
+      "abbreviation": "SAS",
+      "logo_path": "1610612759_SAS_Spurs.png"
+    }
+  ],
+  "failed": []
+}

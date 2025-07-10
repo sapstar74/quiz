@@ -1,0 +1,165 @@
+{
+  "successful_downloads": {
+    "1": {
+      "path": "1_NJD_New_Jersey_Devils.svg",
+      "team_name": "New Jersey Devils",
+      "abbreviation": "NJD"
+    },
+    "2": {
+      "path": "2_NYI_New_York_Islanders.svg",
+      "team_name": "New York Islanders",
+      "abbreviation": "NYI"
+    },
+    "3": {
+      "path": "3_NYR_New_York_Rangers.svg",
+      "team_name": "New York Rangers",
+      "abbreviation": "NYR"
+    },
+    "4": {
+      "path": "4_PHI_Philadelphia_Flyers.svg",
+      "team_name": "Philadelphia Flyers",
+      "abbreviation": "PHI"
+    },
+    "5": {
+      "path": "5_PIT_Pittsburgh_Penguins.svg",
+      "team_name": "Pittsburgh Penguins",
+      "abbreviation": "PIT"
+    },
+    "6": {
+      "path": "6_BOS_Boston_Bruins.svg",
+      "team_name": "Boston Bruins",
+      "abbreviation": "BOS"
+    },
+    "7": {
+      "path": "7_BUF_Buffalo_Sabres.svg",
+      "team_name": "Buffalo Sabres",
+      "abbreviation": "BUF"
+    },
+    "8": {
+      "path": "8_MTL_Montr\u00e9al_Canadiens.svg",
+      "team_name": "Montr\u00e9al Canadiens",
+      "abbreviation": "MTL"
+    },
+    "9": {
+      "path": "9_OTT_Ottawa_Senators.svg",
+      "team_name": "Ottawa Senators",
+      "abbreviation": "OTT"
+    },
+    "10": {
+      "path": "10_TOR_Toronto_Maple_Leafs.svg",
+      "team_name": "Toronto Maple Leafs",
+      "abbreviation": "TOR"
+    },
+    "12": {
+      "path": "12_CAR_Carolina_Hurricanes.svg",
+      "team_name": "Carolina Hurricanes",
+      "abbreviation": "CAR"
+    },
+    "13": {
+      "path": "13_FLA_Florida_Panthers.svg",
+      "team_name": "Florida Panthers",
+      "abbreviation": "FLA"
+    },
+    "14": {
+      "path": "14_TBL_Tampa_Bay_Lightning.svg",
+      "team_name": "Tampa Bay Lightning",
+      "abbreviation": "TBL"
+    },
+    "15": {
+      "path": "15_WSH_Washington_Capitals.svg",
+      "team_name": "Washington Capitals",
+      "abbreviation": "WSH"
+    },
+    "16": {
+      "path": "16_CHI_Chicago_Blackhawks.svg",
+      "team_name": "Chicago Blackhawks",
+      "abbreviation": "CHI"
+    },
+    "17": {
+      "path": "17_DET_Detroit_Red_Wings.svg",
+      "team_name": "Detroit Red Wings",
+      "abbreviation": "DET"
+    },
+    "18": {
+      "path": "18_NSH_Nashville_Predators.svg",
+      "team_name": "Nashville Predators",
+      "abbreviation": "NSH"
+    },
+    "19": {
+      "path": "19_STL_St._Louis_Blues.svg",
+      "team_name": "St. Louis Blues",
+      "abbreviation": "STL"
+    },
+    "20": {
+      "path": "20_CGY_Calgary_Flames.svg",
+      "team_name": "Calgary Flames",
+      "abbreviation": "CGY"
+    },
+    "21": {
+      "path": "21_COL_Colorado_Avalanche.svg",
+      "team_name": "Colorado Avalanche",
+      "abbreviation": "COL"
+    },
+    "22": {
+      "path": "22_EDM_Edmonton_Oilers.svg",
+      "team_name": "Edmonton Oilers",
+      "abbreviation": "EDM"
+    },
+    "23": {
+      "path": "23_VAN_Vancouver_Canucks.svg",
+      "team_name": "Vancouver Canucks",
+      "abbreviation": "VAN"
+    },
+    "24": {
+      "path": "24_ANA_Anaheim_Ducks.svg",
+      "team_name": "Anaheim Ducks",
+      "abbreviation": "ANA"
+    },
+    "25": {
+      "path": "25_DAL_Dallas_Stars.svg",
+      "team_name": "Dallas Stars",
+      "abbreviation": "DAL"
+    },
+    "26": {
+      "path": "26_LAK_Los_Angeles_Kings.svg",
+      "team_name": "Los Angeles Kings",
+      "abbreviation": "LAK"
+    },
+    "28": {
+      "path": "28_SJS_San_Jose_Sharks.svg",
+      "team_name": "San Jose Sharks",
+      "abbreviation": "SJS"
+    },
+    "29": {
+      "path": "29_CBJ_Columbus_Blue_Jackets.svg",
+      "team_name": "Columbus Blue Jackets",
+      "abbreviation": "CBJ"
+    },
+    "30": {
+      "path": "30_MIN_Minnesota_Wild.svg",
+      "team_name": "Minnesota Wild",
+      "abbreviation": "MIN"
+    },
+    "52": {
+      "path": "52_WPG_Winnipeg_Jets.svg",
+      "team_name": "Winnipeg Jets",
+      "abbreviation": "WPG"
+    },
+    "53": {
+      "path": "53_ARI_Arizona_Coyotes.svg",
+      "team_name": "Arizona Coyotes",
+      "abbreviation": "ARI"
+    },
+    "54": {
+      "path": "54_VGK_Vegas_Golden_Knights.svg",
+      "team_name": "Vegas Golden Knights",
+      "abbreviation": "VGK"
+    },
+    "55": {
+      "path": "55_SEA_Seattle_Kraken.svg",
+      "team_name": "Seattle Kraken",
+      "abbreviation": "SEA"
+    }
+  },
+  "failed_teams": []
+}

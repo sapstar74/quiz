@@ -1,0 +1,255 @@
+{
+  "success": [
+    {
+      "state": "Alabama",
+      "abbr": "AL",
+      "path": "us_state_seals/AL.png"
+    },
+    {
+      "state": "Alaska",
+      "abbr": "AK",
+      "path": "us_state_seals/AK.png"
+    },
+    {
+      "state": "Arizona",
+      "abbr": "AZ",
+      "path": "us_state_seals/AZ.png"
+    },
+    {
+      "state": "Arkansas",
+      "abbr": "AR",
+      "path": "us_state_seals/AR.png"
+    },
+    {
+      "state": "California",
+      "abbr": "CA",
+      "path": "us_state_seals/CA.png"
+    },
+    {
+      "state": "Colorado",
+      "abbr": "CO",
+      "path": "us_state_seals/CO.png"
+    },
+    {
+      "state": "Connecticut",
+      "abbr": "CT",
+      "path": "us_state_seals/CT.png"
+    },
+    {
+      "state": "Delaware",
+      "abbr": "DE",
+      "path": "us_state_seals/DE.png"
+    },
+    {
+      "state": "Florida",
+      "abbr": "FL",
+      "path": "us_state_seals/FL.png"
+    },
+    {
+      "state": "Georgia",
+      "abbr": "GA",
+      "path": "us_state_seals/GA.png"
+    },
+    {
+      "state": "Hawaii",
+      "abbr": "HI",
+      "path": "us_state_seals/HI.png"
+    },
+    {
+      "state": "Idaho",
+      "abbr": "ID",
+      "path": "us_state_seals/ID.png"
+    },
+    {
+      "state": "Illinois",
+      "abbr": "IL",
+      "path": "us_state_seals/IL.png"
+    },
+    {
+      "state": "Indiana",
+      "abbr": "IN",
+      "path": "us_state_seals/IN.png"
+    },
+    {
+      "state": "Iowa",
+      "abbr": "IA",
+      "path": "us_state_seals/IA.png"
+    },
+    {
+      "state": "Kansas",
+      "abbr": "KS",
+      "path": "us_state_seals/KS.png"
+    },
+    {
+      "state": "Kentucky",
+      "abbr": "KY",
+      "path": "us_state_seals/KY.png"
+    },
+    {
+      "state": "Louisiana",
+      "abbr": "LA",
+      "path": "us_state_seals/LA.png"
+    },
+    {
+      "state": "Maine",
+      "abbr": "ME",
+      "path": "us_state_seals/ME.png"
+    },
+    {
+      "state": "Maryland",
+      "abbr": "MD",
+      "path": "us_state_seals/MD.png"
+    },
+    {
+      "state": "Massachusetts",
+      "abbr": "MA",
+      "path": "us_state_seals/MA.png"
+    },
+    {
+      "state": "Michigan",
+      "abbr": "MI",
+      "path": "us_state_seals/MI.png"
+    },
+    {
+      "state": "Minnesota",
+      "abbr": "MN",
+      "path": "us_state_seals/MN.png"
+    },
+    {
+      "state": "Mississippi",
+      "abbr": "MS",
+      "path": "us_state_seals/MS.png"
+    },
+    {
+      "state": "Missouri",
+      "abbr": "MO",
+      "path": "us_state_seals/MO.png"
+    },
+    {
+      "state": "Montana",
+      "abbr": "MT",
+      "path": "us_state_seals/MT.png"
+    },
+    {
+      "state": "Nebraska",
+      "abbr": "NE",
+      "path": "us_state_seals/NE.png"
+    },
+    {
+      "state": "Nevada",
+      "abbr": "NV",
+      "path": "us_state_seals/NV.png"
+    },
+    {
+      "state": "New Hampshire",
+      "abbr": "NH",
+      "path": "us_state_seals/NH.png"
+    },
+    {
+      "state": "New Jersey",
+      "abbr": "NJ",
+      "path": "us_state_seals/NJ.png"
+    },
+    {
+      "state": "New Mexico",
+      "abbr": "NM",
+      "path": "us_state_seals/NM.png"
+    },
+    {
+      "state": "New York",
+      "abbr": "NY",
+      "path": "us_state_seals/NY.png"
+    },
+    {
+      "state": "North Carolina",
+      "abbr": "NC",
+      "path": "us_state_seals/NC.png"
+    },
+    {
+      "state": "North Dakota",
+      "abbr": "ND",
+      "path": "us_state_seals/ND.png"
+    },
+    {
+      "state": "Ohio",
+      "abbr": "OH",
+      "path": "us_state_seals/OH.png"
+    },
+    {
+      "state": "Oklahoma",
+      "abbr": "OK",
+      "path": "us_state_seals/OK.png"
+    },
+    {
+      "state": "Oregon",
+      "abbr": "OR",
+      "path": "us_state_seals/OR.png"
+    },
+    {
+      "state": "Pennsylvania",
+      "abbr": "PA",
+      "path": "us_state_seals/PA.png"
+    },
+    {
+      "state": "Rhode Island",
+      "abbr": "RI",
+      "path": "us_state_seals/RI.png"
+    },
+    {
+      "state": "South Carolina",
+      "abbr": "SC",
+      "path": "us_state_seals/SC.png"
+    },
+    {
+      "state": "South Dakota",
+      "abbr": "SD",
+      "path": "us_state_seals/SD.png"
+    },
+    {
+      "state": "Tennessee",
+      "abbr": "TN",
+      "path": "us_state_seals/TN.png"
+    },
+    {
+      "state": "Texas",
+      "abbr": "TX",
+      "path": "us_state_seals/TX.png"
+    },
+    {
+      "state": "Utah",
+      "abbr": "UT",
+      "path": "us_state_seals/UT.png"
+    },
+    {
+      "state": "Vermont",
+      "abbr": "VT",
+      "path": "us_state_seals/VT.png"
+    },
+    {
+      "state": "Virginia",
+      "abbr": "VA",
+      "path": "us_state_seals/VA.png"
+    },
+    {
+      "state": "Washington",
+      "abbr": "WA",
+      "path": "us_state_seals/WA.png"
+    },
+    {
+      "state": "West Virginia",
+      "abbr": "WV",
+      "path": "us_state_seals/WV.png"
+    },
+    {
+      "state": "Wisconsin",
+      "abbr": "WI",
+      "path": "us_state_seals/WI.png"
+    },
+    {
+      "state": "Wyoming",
+      "abbr": "WY",
+      "path": "us_state_seals/WY.png"
+    }
+  ],
+  "failed": []
+}

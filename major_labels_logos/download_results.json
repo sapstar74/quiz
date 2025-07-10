@@ -1,0 +1,39 @@
+{
+  "timestamp": "2025-07-04 18:32:28",
+  "success_count": 0,
+  "total_count": 8,
+  "labels": {
+    "universal_music_group": {
+      "name": "Universal Music Group",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Universal_Music_Group_Logo.svg/320px-Universal_Music_Group_Logo.svg.png"
+    },
+    "sony_music": {
+      "name": "Sony Music Entertainment",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Sony_Music_Entertainment_Logo.svg/320px-Sony_Music_Entertainment_Logo.svg.png"
+    },
+    "warner_music": {
+      "name": "Warner Music Group",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Warner_Music_Group_2013_logo.svg/320px-Warner_Music_Group_2013_logo.svg.png"
+    },
+    "emi": {
+      "name": "EMI Records",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/EMI_Records_Logo.svg/320px-EMI_Records_Logo.svg.png"
+    },
+    "capitol_records": {
+      "name": "Capitol Records",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Capitol_Records_Logo.svg/320px-Capitol_Records_Logo.svg.png"
+    },
+    "columbia_records": {
+      "name": "Columbia Records",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Columbia_Records_Logo.svg/320px-Columbia_Records_Logo.svg.png"
+    },
+    "atlantic_records": {
+      "name": "Atlantic Records",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Atlantic_Records_Logo.svg/320px-Atlantic_Records_Logo.svg.png"
+    },
+    "def_jam": {
+      "name": "Def Jam Recordings",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Def_Jam_Recordings_Logo.svg/320px-Def_Jam_Recordings_Logo.svg.png"
+    }
+  }
+}

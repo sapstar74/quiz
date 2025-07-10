@@ -1,0 +1,155 @@
+{
+  "successful": [
+    {
+      "team_id": "110",
+      "name": "Baltimore Orioles",
+      "logo_path": "110_Orioles.png"
+    },
+    {
+      "team_id": "111",
+      "name": "Boston Red Sox",
+      "logo_path": "111_Red Sox.png"
+    },
+    {
+      "team_id": "147",
+      "name": "New York Yankees",
+      "logo_path": "147_Yankees.png"
+    },
+    {
+      "team_id": "139",
+      "name": "Tampa Bay Rays",
+      "logo_path": "139_Rays.png"
+    },
+    {
+      "team_id": "141",
+      "name": "Toronto Blue Jays",
+      "logo_path": "141_Blue Jays.png"
+    },
+    {
+      "team_id": "145",
+      "name": "Chicago White Sox",
+      "logo_path": "145_White Sox.png"
+    },
+    {
+      "team_id": "114",
+      "name": "Cleveland Guardians",
+      "logo_path": "114_Guardians.png"
+    },
+    {
+      "team_id": "116",
+      "name": "Detroit Tigers",
+      "logo_path": "116_Tigers.png"
+    },
+    {
+      "team_id": "118",
+      "name": "Kansas City Royals",
+      "logo_path": "118_Royals.png"
+    },
+    {
+      "team_id": "142",
+      "name": "Minnesota Twins",
+      "logo_path": "142_Twins.png"
+    },
+    {
+      "team_id": "117",
+      "name": "Houston Astros",
+      "logo_path": "117_Astros.png"
+    },
+    {
+      "team_id": "108",
+      "name": "Los Angeles Angels",
+      "logo_path": "108_Angels.png"
+    },
+    {
+      "team_id": "133",
+      "name": "Oakland Athletics",
+      "logo_path": "133_Athletics.png"
+    },
+    {
+      "team_id": "136",
+      "name": "Seattle Mariners",
+      "logo_path": "136_Mariners.png"
+    },
+    {
+      "team_id": "140",
+      "name": "Texas Rangers",
+      "logo_path": "140_Rangers.png"
+    },
+    {
+      "team_id": "144",
+      "name": "Atlanta Braves",
+      "logo_path": "144_Braves.png"
+    },
+    {
+      "team_id": "146",
+      "name": "Miami Marlins",
+      "logo_path": "146_Marlins.png"
+    },
+    {
+      "team_id": "121",
+      "name": "New York Mets",
+      "logo_path": "121_Mets.png"
+    },
+    {
+      "team_id": "143",
+      "name": "Philadelphia Phillies",
+      "logo_path": "143_Phillies.png"
+    },
+    {
+      "team_id": "120",
+      "name": "Washington Nationals",
+      "logo_path": "120_Nationals.png"
+    },
+    {
+      "team_id": "112",
+      "name": "Chicago Cubs",
+      "logo_path": "112_Cubs.png"
+    },
+    {
+      "team_id": "113",
+      "name": "Cincinnati Reds",
+      "logo_path": "113_Reds.png"
+    },
+    {
+      "team_id": "158",
+      "name": "Milwaukee Brewers",
+      "logo_path": "158_Brewers.png"
+    },
+    {
+      "team_id": "134",
+      "name": "Pittsburgh Pirates",
+      "logo_path": "134_Pirates.png"
+    },
+    {
+      "team_id": "138",
+      "name": "St. Louis Cardinals",
+      "logo_path": "138_Cardinals.png"
+    },
+    {
+      "team_id": "109",
+      "name": "Arizona Diamondbacks",
+      "logo_path": "109_Diamondbacks.png"
+    },
+    {
+      "team_id": "115",
+      "name": "Colorado Rockies",
+      "logo_path": "115_Rockies.png"
+    },
+    {
+      "team_id": "119",
+      "name": "Los Angeles Dodgers",
+      "logo_path": "119_Dodgers.png"
+    },
+    {
+      "team_id": "135",
+      "name": "San Diego Padres",
+      "logo_path": "135_Padres.png"
+    },
+    {
+      "team_id": "137",
+      "name": "San Francisco Giants",
+      "logo_path": "137_Giants.png"
+    }
+  ],
+  "failed": []
+}

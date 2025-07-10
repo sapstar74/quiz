@@ -1,0 +1,420 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NHL Csapatok Listája</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 20px;
+            }
+            h1 {
+                text-align: center;
+                color: #0033a0;
+            }
+            .team-list {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+                gap: 20px;
+            }
+            .team-card {
+                border: 1px solid #ddd;
+                border-radius: 8px;
+                padding: 15px;
+                text-align: center;
+                box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+                transition: transform 0.2s ease-in-out;
+            }
+            .team-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            }
+            .team-logo {
+                height: 100px;
+                width: auto;
+                max-width: 100%;
+                object-fit: contain;
+                margin-bottom: 10px;
+            }
+            .team-name {
+                font-weight: bold;
+                font-size: 18px;
+                margin: 10px 0;
+            }
+            .team-info {
+                color: #666;
+                font-size: 14px;
+            }
+            .conference-divider {
+                border-top: 2px solid #0033a0;
+                margin: 30px 0 20px;
+                padding-top: 10px;
+            }
+            .conference-title {
+                color: #0033a0;
+                font-size: 24px;
+                margin-bottom: 20px;
+            }
+            .division-title {
+                color: #c8102e;
+                font-size: 20px;
+                margin: 20px 0 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>NHL Csapatok Listája</h1>
+    
+        <div class="conference-divider"></div>
+        <h2 class="conference-title">Eastern Conference</h2>
+        
+            <h3 class="division-title">Metropolitan Division</h3>
+            <div class="team-list">
+            
+                <div class="team-card">
+                    <img src="1_New_Jersey_Devils.png" alt="New Jersey Devils Logo" class="team-logo">
+                    <h3 class="team-name">New Jersey Devils</h3>
+                    <div class="team-info">
+                        <p>Helyszín: Newark</p>
+                        <p>Aréna: Prudential Center</p>
+                        <p>Alapítva: 1982</p>
+                    </div>
+                </div>
+                
+                <div class="team-card">
+                    <img src="2_New_York_Islanders.png" alt="New York Islanders Logo" class="team-logo">
+                    <h3 class="team-name">New York Islanders</h3>
+                    <div class="team-info">
+                        <p>Helyszín: Brooklyn</p>
+                        <p>Aréna: Barclays Center</p>
+                        <p>Alapítva: 1972</p>
+                    </div>
+                </div>
+                
+                <div class="team-card">
+                    <img src="3_New_York_Rangers.png" alt="New York Rangers Logo" class="team-logo">
+                    <h3 class="team-name">New York Rangers</h3>
+                    <div class="team-info">
+                        <p>Helyszín: New York</p>
+                        <p>Aréna: Madison Square Garden</p>
+                        <p>Alapítva: 1926</p>
+                    </div>
+                </div>
+                
+                <div class="team-card">
+                    <img src="4_Philadelphia_Flyers.png" alt="Philadelphia Flyers Logo" class="team-logo">
+                    <h3 class="team-name">Philadelphia Flyers</h3>
+                    <div class="team-info">
+                        <p>Helyszín: Philadelphia</p>
+                        <p>Aréna: Wells Fargo Center</p>
+                        <p>Alapítva: 1967</p>
+                    </div>
+                </div>
+                
+                <div class="team-card">
+                    <img src="5_Pittsburgh_Penguins.png" alt="Pittsburgh Penguins Logo" class="team-logo">
+                    <h3 class="team-name">Pittsburgh Penguins</h3>
+                    <div class="team-info">
+                        <p>Helyszín: Pittsburgh</p>
+                        <p>Aréna: PPG Paints Arena</p>
+                        <p>Alapítva: 1967</p>
+                    </div>
+                </div>
+                
+                <div class="team-card">
+                    <img src="12_Carolina_Hurricanes.png" alt="Carolina Hurricanes Logo" class="team-logo">
+                    <h3 class="team-name">Carolina Hurricanes</h3>
+                    <div class="team-info">
+                        <p>Helyszín: Raleigh</p>
+                        <p>Aréna: PNC Arena</p>
+                        <p>Alapítva: 1997</p>
+                    </div>
+                </div>
+                
+                <div class="team-card">
+                    <img src="15_Washington_Capitals.png" alt="Washington Capitals Logo" class="team-logo">
+                    <h3 class="team-name">Washington Capitals</h3>
+                    <div class="team-info">
+                        <p>Helyszín: Washington</p>
+                        <p>Aréna: Capital One Arena</p>
+                        <p>Alapítva: 1974</p>
+                    </div>
+                </div>
+                
+                <div class="team-card">
+                    <img src="29_Columbus_Blue_Jackets.png" alt="Columbus Blue Jackets Logo" class="team-logo">
+                    <h3 class="team-name">Columbus Blue Jackets</h3>
+                    <div class="team-info">
+                        <p>Helyszín: Columbus</p>
+                        <p>Aréna: Nationwide Arena</p>
+                        <p>Alapítva: 2000</p>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <h3 class="division-title">Atlantic Division</h3>
+            <div class="team-list">
+            
+                <div class="team-card">
+                    <img src="6_Boston_Bruins.png" alt="Boston Bruins Logo" class="team-logo">
+                    <h3 class="team-name">Boston Bruins</h3>
+                    <div class="team-info">
+                        <p>Helyszín: Boston</p>
+                        <p>Aréna: TD Garden</p>
+                        <p>Alapítva: 1924</p>
+                    </div>
+                </div>
+                
+                <div class="team-card">
+                    <img src="7_Buffalo_Sabres.png" alt="Buffalo Sabres Logo" class="team-logo">
+                    <h3 class="team-name">Buffalo Sabres</h3>
+                    <div class="team-info">
+                        <p>Helyszín: Buffalo</p>
+                        <p>Aréna: KeyBank Center</p>
+                        <p>Alapítva: 1970</p>
+                    </div>
+                </div>
+                
+                <div class="team-card">
+                    <img src="8_Montréal_Canadiens.png" alt="Montréal Canadiens Logo" class="team-logo">
+                    <h3 class="team-name">Montréal Canadiens</h3>
+                    <div class="team-info">
+                        <p>Helyszín: Montréal</p>
+                        <p>Aréna: Bell Centre</p>
+                        <p>Alapítva: 1909</p>
+                    </div>
+                </div>
+                
+                <div class="team-card">
+                    <img src="9_Ottawa_Senators.png" alt="Ottawa Senators Logo" class="team-logo">
+                    <h3 class="team-name">Ottawa Senators</h3>
+                    <div class="team-info">
+                        <p>Helyszín: Ottawa</p>
+                        <p>Aréna: Canadian Tire Centre</p>
+                        <p>Alapítva: 1992</p>
+                    </div>
+                </div>
+                
+                <div class="team-card">
+                    <img src="10_Toronto_Maple_Leafs.png" alt="Toronto Maple Leafs Logo" class="team-logo">
+                    <h3 class="team-name">Toronto Maple Leafs</h3>
+                    <div class="team-info">
+                        <p>Helyszín: Toronto</p>
+                        <p>Aréna: Scotiabank Arena</p>
+                        <p>Alapítva: 1917</p>
+                    </div>
+                </div>
+                
+                <div class="team-card">
+                    <img src="13_Florida_Panthers.png" alt="Florida Panthers Logo" class="team-logo">
+                    <h3 class="team-name">Florida Panthers</h3>
+                    <div class="team-info">
+                        <p>Helyszín: Sunrise</p>
+                        <p>Aréna: Amerant Bank Arena</p>
+                        <p>Alapítva: 1993</p>
+                    </div>
+                </div>
+                
+                <div class="team-card">
+                    <img src="14_Tampa_Bay_Lightning.png" alt="Tampa Bay Lightning Logo" class="team-logo">
+                    <h3 class="team-name">Tampa Bay Lightning</h3>
+                    <div class="team-info">
+                        <p>Helyszín: Tampa</p>
+                        <p>Aréna: Amalie Arena</p>
+                        <p>Alapítva: 1991</p>
+                    </div>
+                </div>
+                
+                <div class="team-card">
+                    <img src="17_Detroit_Red_Wings.png" alt="Detroit Red Wings Logo" class="team-logo">
+                    <h3 class="team-name">Detroit Red Wings</h3>
+                    <div class="team-info">
+                        <p>Helyszín: Detroit</p>
+                        <p>Aréna: Little Caesars Arena</p>
+                        <p>Alapítva: 1926</p>
+                    </div>
+                </div>
+                
+            </div>
+            
+        <div class="conference-divider"></div>
+        <h2 class="conference-title">Western Conference</h2>
+        
+            <h3 class="division-title">Central Division</h3>
+            <div class="team-list">
+            
+                <div class="team-card">
+                    <img src="16_Chicago_Blackhawks.png" alt="Chicago Blackhawks Logo" class="team-logo">
+                    <h3 class="team-name">Chicago Blackhawks</h3>
+                    <div class="team-info">
+                        <p>Helyszín: Chicago</p>
+                        <p>Aréna: United Center</p>
+                        <p>Alapítva: 1926</p>
+                    </div>
+                </div>
+                
+                <div class="team-card">
+                    <img src="18_Nashville_Predators.png" alt="Nashville Predators Logo" class="team-logo">
+                    <h3 class="team-name">Nashville Predators</h3>
+                    <div class="team-info">
+                        <p>Helyszín: Nashville</p>
+                        <p>Aréna: Bridgestone Arena</p>
+                        <p>Alapítva: 1997</p>
+                    </div>
+                </div>
+                
+                <div class="team-card">
+                    <img src="19_St._Louis_Blues.png" alt="St. Louis Blues Logo" class="team-logo">
+                    <h3 class="team-name">St. Louis Blues</h3>
+                    <div class="team-info">
+                        <p>Helyszín: St. Louis</p>
+                        <p>Aréna: Enterprise Center</p>
+                        <p>Alapítva: 1967</p>
+                    </div>
+                </div>
+                
+                <div class="team-card">
+                    <img src="21_Colorado_Avalanche.png" alt="Colorado Avalanche Logo" class="team-logo">
+                    <h3 class="team-name">Colorado Avalanche</h3>
+                    <div class="team-info">
+                        <p>Helyszín: Denver</p>
+                        <p>Aréna: Ball Arena</p>
+                        <p>Alapítva: 1979</p>
+                    </div>
+                </div>
+                
+                <div class="team-card">
+                    <img src="25_Dallas_Stars.png" alt="Dallas Stars Logo" class="team-logo">
+                    <h3 class="team-name">Dallas Stars</h3>
+                    <div class="team-info">
+                        <p>Helyszín: Dallas</p>
+                        <p>Aréna: American Airlines Center</p>
+                        <p>Alapítva: 1967</p>
+                    </div>
+                </div>
+                
+                <div class="team-card">
+                    <img src="30_Minnesota_Wild.png" alt="Minnesota Wild Logo" class="team-logo">
+                    <h3 class="team-name">Minnesota Wild</h3>
+                    <div class="team-info">
+                        <p>Helyszín: Saint Paul</p>
+                        <p>Aréna: Xcel Energy Center</p>
+                        <p>Alapítva: 2000</p>
+                    </div>
+                </div>
+                
+                <div class="team-card">
+                    <img src="52_Winnipeg_Jets.png" alt="Winnipeg Jets Logo" class="team-logo">
+                    <h3 class="team-name">Winnipeg Jets</h3>
+                    <div class="team-info">
+                        <p>Helyszín: Winnipeg</p>
+                        <p>Aréna: Canada Life Centre</p>
+                        <p>Alapítva: 2011</p>
+                    </div>
+                </div>
+                
+                <div class="team-card">
+                    <img src="53_Arizona_Coyotes.png" alt="Arizona Coyotes Logo" class="team-logo">
+                    <h3 class="team-name">Arizona Coyotes</h3>
+                    <div class="team-info">
+                        <p>Helyszín: Tempe</p>
+                        <p>Aréna: Mullett Arena</p>
+                        <p>Alapítva: 1979</p>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <h3 class="division-title">Pacific Division</h3>
+            <div class="team-list">
+            
+                <div class="team-card">
+                    <img src="20_Calgary_Flames.png" alt="Calgary Flames Logo" class="team-logo">
+                    <h3 class="team-name">Calgary Flames</h3>
+                    <div class="team-info">
+                        <p>Helyszín: Calgary</p>
+                        <p>Aréna: Scotiabank Saddledome</p>
+                        <p>Alapítva: 1980</p>
+                    </div>
+                </div>
+                
+                <div class="team-card">
+                    <img src="22_Edmonton_Oilers.png" alt="Edmonton Oilers Logo" class="team-logo">
+                    <h3 class="team-name">Edmonton Oilers</h3>
+                    <div class="team-info">
+                        <p>Helyszín: Edmonton</p>
+                        <p>Aréna: Rogers Place</p>
+                        <p>Alapítva: 1979</p>
+                    </div>
+                </div>
+                
+                <div class="team-card">
+                    <img src="23_Vancouver_Canucks.png" alt="Vancouver Canucks Logo" class="team-logo">
+                    <h3 class="team-name">Vancouver Canucks</h3>
+                    <div class="team-info">
+                        <p>Helyszín: Vancouver</p>
+                        <p>Aréna: Rogers Arena</p>
+                        <p>Alapítva: 1970</p>
+                    </div>
+                </div>
+                
+                <div class="team-card">
+                    <img src="24_Anaheim_Ducks.png" alt="Anaheim Ducks Logo" class="team-logo">
+                    <h3 class="team-name">Anaheim Ducks</h3>
+                    <div class="team-info">
+                        <p>Helyszín: Anaheim</p>
+                        <p>Aréna: Honda Center</p>
+                        <p>Alapítva: 1993</p>
+                    </div>
+                </div>
+                
+                <div class="team-card">
+                    <img src="26_Los_Angeles_Kings.png" alt="Los Angeles Kings Logo" class="team-logo">
+                    <h3 class="team-name">Los Angeles Kings</h3>
+                    <div class="team-info">
+                        <p>Helyszín: Los Angeles</p>
+                        <p>Aréna: Crypto.com Arena</p>
+                        <p>Alapítva: 1967</p>
+                    </div>
+                </div>
+                
+                <div class="team-card">
+                    <img src="28_San_Jose_Sharks.png" alt="San Jose Sharks Logo" class="team-logo">
+                    <h3 class="team-name">San Jose Sharks</h3>
+                    <div class="team-info">
+                        <p>Helyszín: San Jose</p>
+                        <p>Aréna: SAP Center at San Jose</p>
+                        <p>Alapítva: 1991</p>
+                    </div>
+                </div>
+                
+                <div class="team-card">
+                    <img src="54_Vegas_Golden_Knights.png" alt="Vegas Golden Knights Logo" class="team-logo">
+                    <h3 class="team-name">Vegas Golden Knights</h3>
+                    <div class="team-info">
+                        <p>Helyszín: Las Vegas</p>
+                        <p>Aréna: T-Mobile Arena</p>
+                        <p>Alapítva: 2017</p>
+                    </div>
+                </div>
+                
+                <div class="team-card">
+                    <img src="55_Seattle_Kraken.png" alt="Seattle Kraken Logo" class="team-logo">
+                    <h3 class="team-name">Seattle Kraken</h3>
+                    <div class="team-info">
+                        <p>Helyszín: Seattle</p>
+                        <p>Aréna: Climate Pledge Arena</p>
+                        <p>Alapítva: 2021</p>
+                    </div>
+                </div>
+                
+            </div>
+            
+    </body>
+    </html>
+    
